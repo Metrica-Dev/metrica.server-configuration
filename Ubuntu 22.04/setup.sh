@@ -38,6 +38,9 @@ sudo systemctl restart nginx
 # Installiamo Docker (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
 sudo apt install docker.io
 
+# installiamo docker-compose
+sudo apt install docker-compose
+
 # Aggiungiamo l'utente ubuntu al gruppo docker
 sudo usermod -aG docker ${USER}
 
